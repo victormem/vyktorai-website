@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyktor AI - The Future of Video Editing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(139, 92, 246, 0.05) 100%);
+        }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full glass-effect z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0">
+                    <span class="text-2xl font-bold gradient-text">Vyktor AI</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-300 hover:text-white transition-colors">Features</a>
+                    <a href="#waitlist" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Join Waitlist</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-7xl font-bold mb-8">
+                    The Future of
+                    <span class="gradient-text">Video Editing</span>
+                </h1>
+                <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+                    Transform hours of raw footage into cinematic stories in minutes, not weeks.
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <a href="#waitlist" class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors">
+                        Join Waitlist
+                    </a>
+                    <a href="#demo" class="glass-effect text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/5 transition-colors">
+                        Watch Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="glass-effect p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-indigo-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-magic text-indigo-400 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">AI-Powered Selection</h3>
+                    <p class="text-gray-400">Automatically identify the best moments from your footage.</p>
+                </div>
+                <div class="glass-effect p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-indigo-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-comments text-indigo-400 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Prompt-Based Editing</h3>
+                    <p class="text-gray-400">Describe your vision, and let AI assemble your story.</p>
+                </div>
+                <div class="glass-effect p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-indigo-600/20 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-film text-indigo-400 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Multi-Format Output</h3>
+                    <p class="text-gray-400">Generate versions optimized for any platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist Section -->
+    <section id="waitlist" class="py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-6">Be Among the First</h2>
+                <p class="text-gray-400 mb-12">Join our waitlist to get early access and exclusive updates.</p>
+                <form class="space-y-6">
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <input type="text" placeholder="Your Name" class="flex-1 px-4 py-3 rounded-lg glass-effect text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-600">
+                        <input type="email" placeholder="Your Email" class="flex-1 px-4 py-3 rounded-lg glass-effect text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-600">
+                    </div>
+                    <button type="submit" class="w-full bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors">
+                        Join Waitlist
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <span class="text-2xl font-bold gradient-text">Vyktor AI</span>
+                <p class="text-gray-400 mt-4">The future of video editing is coming.</p>
+                <div class="mt-8 flex justify-center space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form submission handling
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Add your form submission logic here
+            alert('Thank you for joining our waitlist! We\'ll be in touch soon.');
+        });
+    </script>
+</body>
+</html> 
