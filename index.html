@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vyktor AI - The Future of Video Editing</title>
+    <title>Vyktor AI</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#features" class="text-gray-300 hover:text-white transition-colors">Features</a>
-                    <a href="#waitlist" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Join Waitlist</a>
+                    <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Get in Touch</a>
                 </div>
             </div>
         </div>
@@ -45,17 +45,17 @@
 
     <!-- Hero Section -->
     <section class="min-h-screen flex items-center justify-center hero-gradient">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div class="text-center">
                 <h1 class="text-5xl md:text-7xl font-bold mb-8">
                     The Future of
                     <span class="gradient-text">Video Editing</span>
                 </h1>
-                <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+                <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto">
                     Transform hours of raw footage into cinematic stories in minutes, not weeks.
                 </p>
-                <div class="flex justify-center space-x-6">
-                    <a href="#waitlist" class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors">
+                <div class="flex justify-center space-x-6 mb-16">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5T4lmisn9uneQVu2vNQ5yazwobTbm0JN-5pNH8bUlgaITHg/viewform" target="_blank" class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors">
                         Join Waitlist
                     </a>
                     <a href="#demo" class="glass-effect text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white/5 transition-colors">
@@ -67,7 +67,7 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="py-32">
+    <section id="features" class="py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-3 gap-12">
                 <div class="glass-effect p-8 rounded-2xl">
@@ -91,25 +91,6 @@
                     <h3 class="text-xl font-semibold mb-4">Multi-Format Output</h3>
                     <p class="text-gray-400">Generate versions optimized for any platform.</p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Waitlist Section -->
-    <section id="waitlist" class="py-32">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-2xl mx-auto text-center">
-                <h2 class="text-4xl font-bold mb-6">Be Among the First</h2>
-                <p class="text-gray-400 mb-12">Join our waitlist to get early access and exclusive updates.</p>
-                <form class="space-y-6">
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <input type="text" placeholder="Your Name" class="flex-1 px-4 py-3 rounded-lg glass-effect text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-600">
-                        <input type="email" placeholder="Your Email" class="flex-1 px-4 py-3 rounded-lg glass-effect text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-600">
-                    </div>
-                    <button type="submit" class="w-full bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-indigo-700 transition-colors">
-                        Join Waitlist
-                    </button>
-                </form>
             </div>
         </div>
     </section>
@@ -144,13 +125,6 @@
                     behavior: 'smooth'
                 });
             });
-        });
-
-        // Form submission handling
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            // Add your form submission logic here
-            alert('Thank you for joining our waitlist! We\'ll be in touch soon.');
         });
     </script>
 </body>
